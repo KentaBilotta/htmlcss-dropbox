@@ -3,3 +3,62 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+html{
+    font-family:"Roboto", sans-serif;
+    font-size: 13px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.logo{
+    height: 20px;
+}
+
+.navbar-left{
+    width: 50%;
+}
+
+.navbar-right{
+    width: 50%;
+}
+
+.header-links{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 15px;
+}
+
+/* to put the some linksof the header on the left side */
+.right{ 
+    display: flex;
+    justify-content: flex-end;
+}
+
+.link{
+    text-decoration: none;
+    color: grey;
+    margin-left: 25px;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+#start-button{
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+    padding: 8px;
+    background-color: rgb(0, 123, 255);
+}
+
+.container-1{
+    height: 500px;
+    background-color: #b4d0e7;
+}
