@@ -484,12 +484,15 @@ footer{
 
 .fot-links{
     height: 30px;
-    margin-left: -25px;
 }
 
-.link{
+.link2{
     color: white;
-    font-size: 1..1rem
+    text-decoration: none;
+}
+
+.link2:hover{
+    text-decoration: underline;
 }
 
 .info{
