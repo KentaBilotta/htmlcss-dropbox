@@ -58,6 +58,7 @@ header{
     background-color: rgb(2, 109, 222);
 }
 
+/* from here, most of the style is refered to the first section of the page */
 .section-1{
     background-color: #b4d0e7;
     height: 500px;
@@ -96,7 +97,7 @@ header{
 #free-trial-button{
     text-decoration: none;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 8px;
     background-color: rgb(2, 109, 222);
 }
@@ -112,6 +113,141 @@ header{
     flex-grow: 2;
 }
 
-.intro-img{
+/* from here, most of the style is refered to the second section of the page */
+
+.container-2{
+    max-width: 60%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+
+.cont-header{
+    line-height: 60px;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+    height: 30px;
+}
+
+.fatturazione{
+    margin-right: 30px;
+}
+
+.cont-main{
+    display : flex;
+    justify-content: space-between;
+}
+
+.col{
+    width: 30%;
+}
+
+.col-title{
+    border: 1px solid lightgrey;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.col-main{
+    line-height: 18px;
+    border: 1px solid lightgrey;
+    padding: 25px;
+    height: 750px;
+}
+
+.detail{
+    height: 50px;
+    font-weight: lighter;
+    color: rgb(62, 62, 62);
+}
+
+.price{
+    font-weight: bold;
+    height: 30px;
+    color: black;
+}
+
+.buy-now{
+    color: blue;
+}
+
+.fa-check{
+    color: rgb(2, 109, 222);
+}
+
+.button2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 25px;
+}
+
+.details{
+    margin-top: 40px;
+}
+
+.cont-footer{
+    margin-top: 40px;
+}
+
+.col-main-fo{
     display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+}
+
+.col-main-fo-left{
+    padding-top: 25px;
+    margin-left: 25px;
+    width: 60%;
+}
+
+.offer{
+    margin-top: 30px;
+}
+
+/* from here, most of the style is refered to the third section of the page */
+.container-3-1{
+    max-width: 60%;
+    margin: auto;
+    height: 400px;
+    margin-bottom: 70px;
+}
+
+.find-partner-button{
+    text-decoration: none;
+    color: rgb(62, 62, 62);
+    border: 1px solid grey;
+    padding: 8px;
+}
+
+.button3{
+    margin-top: 70px;
+}
+
+.container-3-1{
+    display: flex;
+}
+
+.img-cont3-1{
+    width: 60%;
+    background-image: url("img/partner.png");
+    background-size: cover;
+}
+
+.text-cont3-1{
+    width: 40%;
+    padding: 50px;
+    line-height: 18px;
+}
+
+.partner-title{
+    margin-bottom: 30px;
+    line-height: 25px;
 }
